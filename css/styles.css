@@ -1,0 +1,57 @@
+/* author:ABISH
+Date:19-04-2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bs-black: #000;
+}
+body{
+    font-family: "Cabin", sans-serif;
+    
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.2rem;
+}
+a{
+    color:#7e7c7c;
+}
+.section1{
+    background-color: #f0eeeb;
+}
+.bg-dark{
+    background-color: var(--bs-black)!important;
+}
+.btn-dark{
+    background-color: var(--bs-black)!important;
+}
+.text-dark{
+    color: var(--bs-black)!important;
+}
+
+.top-section p{
+    font-size: 1.3rem;
+}
+.spense-benefit p{
+  font-weight: 600;
+}
+.custom-container {
+    background-color: #f0eeeb;
+}
+/* owl crousel styling */
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
